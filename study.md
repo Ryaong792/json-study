@@ -50,7 +50,16 @@ A kitchen has many items.
     rack, and cinnamon, nutmeg, and vanilla on another shelf.
 
 ```json
-<!-- your answer here -->
+"kitchen": {
+  "cupboard": ["bowls", "plates"],
+  "electric stove": {
+    "heating elements": ["small", "medium", "large", "extra large"]
+  },
+  "herbs and spices": {
+    "shelf 1": ["chives","lemon grass", "mint"],
+    "shelf 2": ["cinnamon", "nutmeg", "vanilla"]
+  },
+}
 ```
 
 ## Modeling Data Using JSON: Part II
@@ -62,7 +71,19 @@ delicious apple.
 Copy the JSON that you wrote for the previous question and include the new information about the kitchen.
 
 ```json
-<!-- your answer here -->
+"kitchen": {
+  "cupboard": ["bowls", "plates"],
+  "electric stove": {
+    "heating elements": ["small", "medium", "large", "extra large"]
+  },
+  "herbs and spices": {
+    "shelf 1": ["chives","lemon grass", "mint"],
+    "shelf 2": ["cinnamon", "nutmeg", "vanilla"]
+  },
+  "Fuji apples": 2,
+  "Gala apples": 7,
+  "Golden apple" : 1,
+}
 ```
 
 ## JSON Methods
@@ -70,7 +91,7 @@ Copy the JSON that you wrote for the previous question and include the new infor
 Can you write a method in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+study.md states does not support method
 ```
 
 ## JSON Comments
@@ -78,5 +99,5 @@ Can you write a method in the JSON that you wrote above?
 Can you write comments in the JSON that you wrote above?
 
 ```json
-<!-- your answer here -->
+study.md states does not support comments
 ```
